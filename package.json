@@ -1,0 +1,33 @@
+{
+  "name": "grocery-list",
+  "version": "1.0.0",
+  "description": "a very simple grocery list in react redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-kenji/grocery-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruno-kenji/grocery-list/issues"
+  },
+  "homepage": "https://github.com/bruno-kenji/grocery-list#readme",
+  "devDependencies": {
+  "enzyme": "^2.4.1",
+  "react-addons-test-utils": "^15.3.0",
+  "react-scripts": "^0.9.3"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
+  }
+}
