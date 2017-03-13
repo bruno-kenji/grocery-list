@@ -1,8 +1,17 @@
 import React, { PropTypes } from 'react'
 import Grocery from './Grocery'
+import { ListGroup } from 'react-bootstrap'
+import { Bootstrap } from 'bootstrap/dist/css/bootstrap.css'
 
 const GroceryList = ({ groceries, onGroceryClick }) => (
-  <ul>
+  <ListGroup
+    className='col-sm-offset-2 col-md-offset-3 col-lg-offset-4 col-sm-8 col-md-6 col-lg-4'
+    style={{
+      marginTop: '15px',
+      letterSpacing: '2.5px',
+      fontSize: '16px'
+    }}
+  >
     {groceries.map(grocery =>
       <Grocery
         key={grocery.id}
@@ -10,7 +19,7 @@ const GroceryList = ({ groceries, onGroceryClick }) => (
         onClick={() => onGroceryClick(grocery.id)}
       />
     )}
-  </ul>
+  </ListGroup>
 )
 
 GroceryList.propTypes = {

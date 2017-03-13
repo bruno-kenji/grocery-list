@@ -1,15 +1,17 @@
 import React, { PropTypes } from 'react'
+import { ListGroupItem } from 'react-bootstrap'
 
 const Grocery = ({ onClick, completed, text }) => (
-  <li
+  <ListGroupItem
     onClick={onClick}
     style={{
       display: completed ? 'none' : 'list-item',
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: '#3D9970'
     }}
   >
     {text}
-  </li>
+  </ListGroupItem>
 )
 
 Grocery.propTypes = {

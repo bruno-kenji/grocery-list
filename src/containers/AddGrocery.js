@@ -6,7 +6,7 @@ let AddGrocery = ({ dispatch }) => {
   let input
 
   return (
-    <div>
+    <div className='text-center'>
       <form onSubmit={e => {
         e.preventDefault()
         if (!input.value.trim()) {
@@ -19,7 +19,7 @@ let AddGrocery = ({ dispatch }) => {
           input = node
         }} />
         <button type="submit">
-          Add Grocery
+          Adicionar
         </button>
       </form>
     </div>
