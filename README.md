@@ -8,3 +8,6 @@ A very simple grocery list using react + redux
 
 ## Usage
 Fill in the input to add your groceries to the list and click on them to remove. That's it!
+
+## Test suite
+Run `npm test`
